@@ -43,6 +43,13 @@ public class Program2 {
 		depDao.update(dep);
 		System.out.println("Update complete!");*/
 		
+		/*System.out.println("==== TESTE 4: Department update ====");
+		System.out.println("Insert department id to be deleted");
+		int id = sc.nextInt();
+		sc.nextLine();
+		depDao.deleteById(id);
+		System.out.println("Department of id " + id + " sucessfull deleted");*/
+		
 		sc.close();
 		
 		
